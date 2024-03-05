@@ -1,5 +1,5 @@
 # Information Gathering
-Information Gathering Techiques
+Information Gathering Techniques
 
 # To perform information gathering techniques
 
@@ -121,4 +121,4 @@ sudo traceroute  www.saveetha.ac.in
 ![exp2_11](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/c37c5cd1-311c-4076-a1c4-5d0a3513fe96)
 
 ## RESULT:
-The information gathering techniques tools/procedure were  identified successfully
+The information gathering techniques tools/procedure were identified successfully
