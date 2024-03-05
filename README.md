@@ -49,14 +49,14 @@ get further detail by using ip2location.com website.
 
 ![exp2_3](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/5315d237-c060-4ab5-90d1-235a931dfa14)
 
-## History of the wbsite:
+## History of the website:
 ## Output:
 
 https://web.archive.org/
 
 ![exp2_4](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/c7cf5204-ba99-4188-9cf1-de3655277b33)
 
-## Web server Fingerprint:
+## Webserver Fingerprinting:
 ## Netcat:
 ```
 nc 172.17.52.118 80
