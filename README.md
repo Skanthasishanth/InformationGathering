@@ -59,7 +59,7 @@ https://web.archive.org/
 
 ## nmap:
 ```
-nmap -p 21 -sV --script=banner ftp.vim.org
+nmap saveetha.ac.in
 ```
 ## Output:
 
@@ -67,13 +67,13 @@ nmap -p 21 -sV --script=banner ftp.vim.org
 
 ## Whatweb:
 ```
+whatweb -v -a 3 saveetha.ac.in
+```
+```
 whatweb infosys.com
 ```
 ```
 whatweb zoho.com
-```
-```
-whatweb -v -a 3 172.17.52.201
 ```
 ## Output:
 
@@ -89,7 +89,6 @@ sudo traceroute -T www.saveetha.ac.in
 ## Output:
 
 ![op7](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/66e47c03-a560-4e94-b29d-cd447384dc00)
-
 
 ## UDP Traceroute:
 ```
