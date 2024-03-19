@@ -31,7 +31,7 @@ http://www.whois.com/whois website to get detailed information about a domain na
 
 ## OUTPUT:
 
-![exp2_1](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/76e21c7b-59f6-46bd-a8e5-f700fb6eb7e3)
+![op1](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/e18f9ec3-6b90-4937-a8f5-2cf597e7cf05)
 
 ## Finding IP adress:
 ping command is available on Windows as well as on Linux OS. Following is the example to find out the IP address of saveetha.ac.in.
@@ -40,30 +40,22 @@ ping saveetha.ac.in
 ```
 ## Output:
 
-![exp2_2](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/222be039-45a4-4e09-a110-140e857be4f4)
+![op2](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/c79eb70c-ded6-470d-bdf6-61e4540a1854)
 
 ## Finding Hosting Company:
 get further detail by using ip2location.com website.
 
 ## Output:
 
-![exp2_3](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/5315d237-c060-4ab5-90d1-235a931dfa14)
+![op3](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/228c43c6-3e90-48e6-92f2-72817a496c89)
+
 
 ## History of the website:
 ## Output:
 
 https://web.archive.org/
 
-![exp2_4](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/c7cf5204-ba99-4188-9cf1-de3655277b33)
-
-## Webserver Fingerprinting:
-## Netcat:
-```
-nc 172.17.52.118 80
-```
-## Output:
-
-![exp2_5](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/98d50ffa-ff69-4b7d-bb35-15ef42f97f33)
+![op4](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/a7c46119-0854-4703-b120-48d21e273e6b)
 
 ## nmap:
 ```
@@ -71,7 +63,7 @@ nmap -p 21 -sV --script=banner ftp.vim.org
 ```
 ## Output:
 
-![exp2_6](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/4e92e308-8894-4ed9-86ce-7eadbe408fdb)
+![op5](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/616c53a3-43c2-476a-b893-fc89eaa8bd40)
 
 ## Whatweb:
 ```
@@ -85,15 +77,9 @@ whatweb -v -a 3 172.17.52.201
 ```
 ## Output:
 
-![exp2_7](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/d2095ce1-a730-4431-a88a-02a71ef41f51)
+![op6a](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/72765969-04e0-4bbc-b81c-126e28cfcd3c)
 
-## httprint:
-```
-httprint -h 172.17.52.201 -s /usr/share/httprint/signatures.txt -P0 |more
-```
-## Output:
-
-![exp2_8](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/6ceb7b19-be7e-4fef-ae62-79a7a3dd0159)
+![op6b](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/cfd8f9fe-5e8b-4d7c-a524-ee0c95b25592)
 
 ## Tracing the Location:
 ## TCP Traceroute:
@@ -102,7 +88,8 @@ sudo traceroute -T www.saveetha.ac.in
 ```
 ## Output:
 
-![exp2_9](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/aaabe9f9-34b0-43ff-93e9-e41770c37336)
+![op7](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/66e47c03-a560-4e94-b29d-cd447384dc00)
+
 
 ## UDP Traceroute:
 ```
@@ -110,7 +97,7 @@ sudo traceroute -U www.saveetha.ac.in
 ```
 ## Output:
 
-![exp2_10](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/a9b5f3a0-5133-4150-871c-415fd84384f4)
+![op8](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/0d44c29e-3edb-4ba3-9ccd-18bd87283090)
 
 ## ICMP Traceroute:
 ```
@@ -118,7 +105,7 @@ sudo traceroute  www.saveetha.ac.in
 ```
 ## Output:
 
-![exp2_11](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/c37c5cd1-311c-4076-a1c4-5d0a3513fe96)
+![op9](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/c878d9ba-35ca-4106-9360-d768379d74af)
 
 ## RESULT:
 The information gathering techniques tools/procedure were identified successfully
