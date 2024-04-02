@@ -81,6 +81,14 @@ whatweb zoho.com
 
 ![op6b](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/cfd8f9fe-5e8b-4d7c-a524-ee0c95b25592)
 
+## httprint:
+```
+httprint -h 103.21.58.21 -s /usr/share/httprint/signatures.txt -P0 |more
+```
+## Output:
+
+![exp_httprint](https://github.com/Skanthasishanth/InformationGathering/assets/118298456/c725ff45-4226-4434-98b8-9e0e09e29170)
+
 ## Tracing the Location:
 ## TCP Traceroute:
 ```
